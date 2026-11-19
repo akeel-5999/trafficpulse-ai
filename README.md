@@ -1,14 +1,48 @@
-# trafficpulse-ai
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrafficPulse AI | Connected Vehicle Telematics & Eco-Departure Optimization</title>
-    <meta name="description" content="Predictive automotive telematics platform optimizing vehicle departure windows using Caltrans PeMS loop detector sensor feeds and EPA energy models.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+TrafficPulse – Smart Traffic Window Advisor 🚦
+
+TrafficPulse is a web-based traffic analysis dashboard designed to help users identify traffic congestion patterns and choose a less congested departure time.
+
+The application allows users to select a weekday and a specific time range. Based on the selected window, it analyzes estimated traffic volume, identifies peak and low-traffic hours, displays visual traffic patterns, and provides a departure-time recommendation.
+
+🌟 Features
+
+Custom Time-Range Selection: Select a weekday, starting time, and ending time to analyze a particular travel window.
+
+Traffic Volume Analysis: Calculate the average estimated traffic volume during the selected period.
+
+Peak Traffic Detection: Identify the hour with the highest estimated traffic volume.
+
+Low-Traffic Detection: Find the hour with the lowest estimated traffic volume.
+
+Smart Departure Recommendation: Suggest the least congested hour within the selected time window.
+
+Traffic Classification: Categorize traffic conditions into Low, Moderate, and High.
+
+Visual Traffic Chart: Display hourly traffic volume using a dynamic chart.
+
+Congestion Heatmap: Visualize traffic conditions hour by hour.
+
+Overnight Time Support: Analyze time ranges that continue past midnight.
+
+Responsive Design: Access the dashboard on desktop, tablet, and mobile devices.
+
+🛠️ Technologies Used
+
+Technology
+
+Purpose
+
+HTML5
+
+Structure of the application
+
+CSS3
+
+Styling and responsive user interface
+
+JavaScript
+
+Traffic analysis, calculations, and dynamic functionality
 
     <!-- Navigation Header (Automotive Cockpit Interface) -->
     <header class="navbar">
