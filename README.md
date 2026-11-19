@@ -44,6 +44,14 @@ JavaScript
 
 Traffic analysis, calculations, and dynamic functionality
 
+
+
+
+
+
+
+
+
     <!-- Navigation Header (Automotive Cockpit Interface) -->
     <header class="navbar">
         <div class="brand-container">
